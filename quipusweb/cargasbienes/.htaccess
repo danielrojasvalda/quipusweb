@@ -1,0 +1,2 @@
+AuthName "Directorio Protegido"
+AuthUserFile "/home/quipusgo/.htpasswds/public_html/cargasbienes/passwd"

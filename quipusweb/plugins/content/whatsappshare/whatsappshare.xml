@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="content" method="upgrade">
+        <name>Content - WhatsApp Share</name>
+        <author>emkt.mx - Fernando Arturo Martínez Aguilar @fernandomtza</author>
+        <creationDate>March 1, 2015</creationDate>
+        <copyright>(C) 2009 - 2015 emkt.mx All rights reserved.</copyright>
+        <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+        <authorEmail>fernando@publi20.com</authorEmail>
+        <authorUrl>http://emkt.mx</authorUrl>
+        <version>2.0</version>
+        
+		<description>
+		<![CDATA[
+		<div class="">
+			<h1>WhatsApp Share for Joomla</h1>
+			<p class="lead">WhatsApp Share for Joomla is a lightweighted plugin, it enables a WhatsApp sharing button in your website when a visitor is using a Mobile Device.</p>
+			<p>Now your users can share your website pages through WhatsApp service to all of their mobile contacts.</p>
+			<p>For installation: Enable this plugin in <a href=index.php?option=com_plugins target=_blank>Plugin Manager</a> &gt; Type Content </p>
+			<p>For comments or support please contact me trought my website: <a href=http://emkt.mx/ku target=_blank rel=whatsappshare>http://emkt.mx/ku</a> or by email: <a href="mailto:fernando@publi20.com">fernando@publi20.com</a></p>
+			<p>For updates follow me on Twitter: <a href="https://twitter.com/intent/user?screen_name=fernandomtza" target="_blank">@fernandomtza</a></p>
+		</div>			
+		]]>
+		</description>	
+		
+		
+        <files>
+                <filename plugin="whatsappshare">whatsappshare.php</filename>
+                <filename>index.html</filename>
+				<folder>assets</folder>
+        </files>
+
+        <config>
+			<fields name="params">
+				<fieldset name="basic">
+					<field 
+							name="services" 
+							type="radio" 
+							default="all" 
+							description="Display WhatsApp Share only or WhatsApp Share + Social Sharing (Facebook, Twitter and E-mail)" 
+							label="Services to display" >
+							
+							<option value="only">WhatsApp Only</option>
+							<option value="all">WhatsApp, Facebook, Twitter and E-mail</option>
+					</field>
+					<field 
+								name="sitecss" 
+								type="textarea" 
+								rows="10" 
+								cols="30" 
+								default="" 
+								label="WhatApp Share CSS (Advanced)" 
+								description="Edit it to suit your specific needs." />
+				</fieldset>
+			</fields>
+        </config>
+</extension>

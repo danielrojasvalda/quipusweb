@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Zoom In</name>
+	<author>Pixel Point Creative</author>
+    	<creationDate>October 2011</creationDate>
+	<copyright>(C) 2011 Pixel Point Creative LLC</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@pixelpointcreative.com</authorEmail>
+   	<authorUrl>www.pixelpointcreative.com</authorUrl>
+	<version>1.2</version>
+	<description>Don't forget to publish this plugin. Usage format: {zoomin src="bigimage.jpg" type="hover"}thumbnailimage.jpg{/zoomin} </description>
+	<files>
+		<folder plugin="plg_zoomin">plg_zoomin</folder>	
+		<filename plugin="plg_zoomin">plg_zoomin.php</filename>
+	</files>
+	
+	
+	<config>
+	<fields name="params"> 
+	<fieldset name="basic" addfieldpath="/plugins/content/plg_zoomin/plg_zoomin/elements/">
+
+        	<field label="Version Check" type="upgradecheck" />
+	<field name="type" type="list"  default="click" label="Click or Hover" description="Default Click or Hover? This can be overwritten in the plugin code so you can have both click and hover on same page">
+             		<option value="click">Click</option>
+                    <option value="hover">Hover</option>
+                </field>
+	 
+	<field name="include_jquery" type="radio" class="btn-group" default="1" label="Include jQuery Library" description="Include jQuery Library">
+             		<option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+	  </fieldset>
+            
+      </fields>
+	</config>
+		<updateservers>
+		<server type="extension" priority="1" name="Zoom In Auto Updater">http://www.pixelpointcreative.com/autoupdates/zoomin.xml</server>
+	</updateservers>	
+</extension>
+
+
+
+
+
+	

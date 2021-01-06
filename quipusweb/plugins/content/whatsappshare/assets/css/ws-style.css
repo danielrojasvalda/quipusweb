@@ -1,0 +1,40 @@
+@import url('wsi.css');
+html{
+	padding-bottom: 80px !important;
+}
+.ws-wrap {
+  display: block;
+  margin: 0px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 99999999;
+  background-color: rgba(0,0,0,.8);
+  width: 100%;
+  padding: 5px;
+  text-align: right;
+  box-sizing: border-box;
+}
+.ws-wrap a {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #fff;
+  margin:0px;
+}
+.ws-wrap a :hover,.ws-wrap a :focus{
+	color: #f6f6f6;
+}
+.ws-wrap a:last-child{
+
+}
+.ws-wrap a.ws-f {background-color:#3b5998;}
+.ws-wrap a.ws-t {background-color:#00aced;}
+.ws-wrap a.ws-e {background-color:#333e48;}
+.ws-wrap a.ws-w {background-color:#4dc247;}
+.ws-wrap a.ws-w-only{
+	background-color:#4dc247;
+	width: 25%;
+}

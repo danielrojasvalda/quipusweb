@@ -1,0 +1,5 @@
+
+.wsi-whatsapp-ws:before { content: '\e800'; } /* '' */
+.wsi-facebook-ws:before { content: '\e801'; } /* '' */
+.wsi-twitter-ws:before { content: '\e802'; } /* '' */
+.wsi-mail-ws:before { content: '\e803'; } /* '' */

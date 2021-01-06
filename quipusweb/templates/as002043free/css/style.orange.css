@@ -1,0 +1,231 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+
+
+
+a:hover,
+a.selected,
+.well a.selected,
+.well a:hover
+{
+	color: #b15609;
+}
+
+
+
+
+
+/**************************************************************************************/
+/*   Buttons																		  */
+
+
+a.btn,
+a.readmore,
+.btn_info,
+.btn-info,
+.btn-group button.btn,
+.mod-newsflash a.readmore,
+.btn-primary,
+.btn_primary,
+.contentpane .button,
+#filter a.active,
+div.itemCommentsForm form input#submitCommentButton,
+a.readon,
+#k2Container .purchase a, 
+.item-page .purchase a, 
+.purchase a,
+.k2ReadMore,
+div.k2ItemsBlock ul li a.moduleItemReadMore,
+.contentpane .button,
+span.addtocart-button input.addtocart-button, span.addtocart-button input.notify-button, .vmgroup a.notify,  a.notify,
+form#form-login .button, form#com-form-login .button, form#userForm .button, form#adminForm .button, form#adminFormToggle .button, 
+.vm-button-correct, input.highlight-button, input.button
+{
+	color: #ffffff;
+	background-color: #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#b15609)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #000, #b15609) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #000, #b15609) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #000, #b15609) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #000, #b15609) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #000, #b15609) !important; /* W3C */	
+}
+
+
+
+a.btn:hover,
+.btn_info:hover,
+.btn-info:hover,
+.btn_info:active,
+.btn-info:active,
+.btn_info.active,
+.btn-info.active,
+.btn_info.disabled,
+.btn-info.disabled,
+.btn_info[disabled],
+.btn-info[disabled],
+.btn-primary:hover,
+.btn_primary:hover,
+.btn-primary:active,
+.btn_primary:active,
+.btn-primary.active,
+.btn_primary.active,
+.btn-primary.disabled,
+.btn_primary.disabled,
+.btn-primary[disabled],
+.btn_primary[disabled],
+.mod-newsflash a.readmore:hover,
+a.readmore:hover,
+.contentpane .button:hover,
+div.itemCommentsForm form input#submitCommentButton:hover,
+a.readon:hover,
+#k2Container .purchase a:hover, .item-page .purchase a:hover, .purchase a:hover,
+.k2ReadMore:hover,
+div.k2ItemsBlock ul li a.moduleItemReadMore:hover,
+span.addtocart-button input.addtocart-button:hover, span.addtocart-button input.notify-button:hover, .vmgroup a.notify:hover, .vm-product-container a.notify:hover,
+ form#form-login .button:hover,  form#com-form-login .button:hover, form#userForm .button:hover,  form#adminForm .button:hover, form#adminFormToggle .button:hover,
+.vm-button-correct:hover, .vm-button-correct:link, .vm-button-correct:visited, input.highlight-button:hover,
+div.product:hover .addtocart-button, input.button:hover
+{
+	color: #E2B9A0;
+	background-color: #b15609;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b15609), to(#000)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #b15609, #000) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #b15609, #000) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #b15609, #000) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #b15609, #000) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #b15609, #000) !important; /* W3C */
+}
+
+
+/**************************************************************************************/
+/*   Header
+/**************************************************************************************/
+/**************************************************************************************/
+
+#top_header #header-top-row
+{		
+	background-color: #b15609;	
+	border-botom: 1px solid #ddd;
+	box-shadow: 0 0 10px #333;
+	color: #fff;	
+	border-bottom: 1px solid #ddd;
+}
+
+
+/**************************************************************************************/
+/*   Header Row		  																  */
+
+#header-row #logo-container
+{
+	background-color: #b15609;
+	border: 1px solid #666666;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b15609), to(#000)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #b15609, #000) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #b15609, #000) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #b15609, #000) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #b15609, #000) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #b15609, #000) !important; /* W3C */
+}
+
+
+
+#as-menu ul.as-menu > li:hover,
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.asHover,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+	
+	background-color: #b15609 !important;
+}
+
+#as-menu ul.as-menu ul li,
+#as-menu ul.as-menu > li.firstItem, #as-menu ul.as-menu > li:first-child,
+#as-menu ul.as-menu > li
+{
+	background-color: #b15609;
+    border: 1px solid #666666 !important;
+}
+
+/**************************************************************************************/
+/*   Search Row	  																  */
+
+
+
+/**************************************************************************************/
+/*   Footer
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+
+#footer-row-1
+{
+	background-color: #b15609;
+	color: #ccc;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	box-shadow: 0 0 1px #333;
+}
+
+#copyright-row 
+{
+	background-color: #b15609;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b15609), to(#000)) !important; /* Saf4+, Chrome */
+	background-image:  -webkit-linear-gradient(top, #b15609, #000) !important; /* Chrome 10+, Saf5.1+ */
+	background-image:  -moz-linear-gradient(top, #b15609, #000) !important; /* FF3.6+ */
+	background-image:  -ms-linear-gradient(top, #b15609, #000) !important; /* IE10 */
+	background-image: -o-linear-gradient(top, #b15609, #000) !important; /* Opera 11.10+ */
+	background-image:  linear-gradient(top, #b15609, #000) !important; /* W3C */			
+}
+
+
+
+/*********************************************************************************/
+/*              K2 Component                                                     */
+
+.itemImage img, 
+.catItemImage img, 
+.tagItemImage img, 
+.userItemImage img, 
+.itemIntroText img, 
+.catItemIntroText img,
+div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img 
+{
+    border: 1px solid #BBBBBB !important;
+}
+
+div.k2Pagination  ul li.pagination-start span.pagenav,
+div.k2Pagination  ul li.pagination-prev span.pagenav
+{
+	color: #b15609;
+	background: #F0F0F0;
+}
+
+
+div.k2Pagination  ul li a.pagenav
+{
+	color: #b15609;
+	background: #F0F0F0;
+}
+
+
+/* virtuemart */
+
+ul.VMmenu li.VmOpen div, ul.VMmenu li.VmClose div:hover, .vmgroup ul.vmmanufacturer li:hover
+{
+	background-color: #b15609 !important;
+}
+
+
+
